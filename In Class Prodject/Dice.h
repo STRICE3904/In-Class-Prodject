@@ -15,6 +15,7 @@ public:
 
 	void SetDiceNumber(float d_number);
 
+
 	void SetDiceSides(float d_ammount);
 
 	void DisplayRoll();
