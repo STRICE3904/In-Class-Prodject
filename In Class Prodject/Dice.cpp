@@ -11,8 +11,9 @@ dice::dice(float maxValue)
 
 void DisplayRoll(float dicenumber, float maxValue)
 {
+	int maxValue = maxValue;
 	int result = 0;
-	for (size_t i = 0; i < dicenumber; i++)
+	for (int i = 0; i < dicenumber; i++)
 	{
 		result += rand() % maxValue + 1; 
 	}
