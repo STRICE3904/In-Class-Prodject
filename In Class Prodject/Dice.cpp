@@ -3,9 +3,27 @@
 
 using namespace std;
 
-dice::dice
+dice::dice(float maxValue)
 {
-	d_number = 0;
-	d_ammount = 0;
+	this->maxValue = maxValue
 }
 
+void SetDiceNumber(float dicenumber)
+{
+
+}
+
+void SetDiceAmmount(float maxValue)
+{
+	
+}
+
+void DisplayRoll(float dicenumber, float maxValue)
+{
+	int result = 0;
+	for (size_t i = 0; i < dicenumber; i++)
+	{
+		result += rand() % maxValue + 1; 
+	}
+	return result
+}

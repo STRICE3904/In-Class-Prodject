@@ -10,19 +10,12 @@ using namespace std;
 class dice
 {
 public:
-	dice();
+	dice(float maxValue);
 	~dice();
 
-	void SetDiceNumber(float d_number);
-
-
-	void SetDiceSides(float d_ammount);
-
-	void DisplayRoll();
+	void DisplayRoll(float dicenumber, float maxValue);
 
 private:
-	float d_number;
-	float d_ammount
-
+	float maxValue;
 };
 #endif
