@@ -8,16 +8,6 @@ dice::dice(float maxValue)
 	this->maxValue = maxValue
 }
 
-void SetDiceNumber(float dicenumber)
-{
-
-}
-
-void SetDiceAmmount(float maxValue)
-{
-	
-}
-
 void DisplayRoll(float dicenumber, float maxValue)
 {
 	int result = 0;
@@ -25,5 +15,5 @@ void DisplayRoll(float dicenumber, float maxValue)
 	{
 		result += rand() % maxValue + 1; 
 	}
-	return result
+	return result;
 }
