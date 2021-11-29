@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctime>
 #include <Dice.h>
 
 using namespace std;
