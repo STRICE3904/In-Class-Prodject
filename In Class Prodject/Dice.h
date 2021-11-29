@@ -17,5 +17,6 @@ public:
 
 private:
 	float maxValue;
+	float dicenumber;
 };
 #endif
