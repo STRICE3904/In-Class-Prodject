@@ -1,21 +1,16 @@
 #include <iostream>
 #include <ctime>
-#include <Dice.h>
+#include "Dice.h"
 
 using namespace std;
 
-dice::dice(float maxValue)
+int Dice(int maxValue, int dicenumber, int result)
 {
-	this->maxValue = maxValue
-}
-
-void DisplayRoll(float dicenumber, float maxValue)
-{
-	int maxValue = maxValue;
-	int result = 0;
 	for (int i = 0; i < dicenumber; i++)
 	{
-		result += rand() % maxValue + 1; 
+		result += rand() % maxValue + 1;
 	}
+	cout << "Dice roll was: " << result << endl;
+
 	return result;
 }

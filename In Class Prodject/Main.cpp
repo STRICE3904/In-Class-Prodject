@@ -1,22 +1,21 @@
 #include <iostream>
 #include <string>
 #include <ctime>
-#include <Dice.h>
+#include "Dice.h"
 
 using namespace std;
 
 
 int main()
 {
-	srand(time(NULL));
-
-	float dicenumber;
-	float maxValue;
-	cout << "Type ammount of dice and ammount of dice sides";
-	cin >> dicenumber >> maxValue;
-	dice.DisplayRoll(dicenumber, maxValue);
-	cout << dice.DisplayRoll() << endl;
-
+	int dicenumber;
+	int maxValue;
+	cout << "Ammount of dice:";
+	cin >> dicenumber;
+	cout << "Type of dice: ";
+	cin >> maxValue;
+	dice Dice();
+	Dice();
 	return 0;
 
 }
